@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "wandering-player",
+  "version": "${version}",
+  "name": "Wandering Player",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "BSD-3-Clause",
+  "icon": "assets/wandering-player/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.amiralimollaei.wanderingPlayer.client.WanderingPlayerClient"
+    ],
+    "main": [
+      "me.amiralimollaei.wanderingPlayer.WanderingPlayer"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
